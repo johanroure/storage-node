@@ -1,0 +1,25 @@
+{
+    "minimum-stability": "dev",
+    "repositories": [
+    {
+        "type": "vcs",
+        "url" : "C:/xampp/htdocs/roboto/packages/basic-app"
+    },
+    {
+        "type": "vcs",
+        "url" : "C:/xampp/htdocs/roboto/packages/system_api"
+    },
+    {
+        "type": "vcs",
+        "url" : "C:/xampp/htdocs/roboto/packages/ip-filter"
+    }
+    ],
+    "require": {
+        "katzgrau/klogger"       : "1.0.*",
+        "symfony/class-loader"   : "2.1.*",
+        "symfony/http-foundation": "2.1.*",
+        "blen-lenny/basic-app"   : "*",
+        "blen-lenny/system-api"  : "*",
+        "blen-lenny/ip-filter"   : "*"
+    }
+}
